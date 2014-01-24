@@ -12,6 +12,7 @@ cask install hipchat
 cask install macvim
 cask install mailplane
 cask install reveal
+cask install rdio
 
 install rbenv
 install ruby-build
