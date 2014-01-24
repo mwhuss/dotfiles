@@ -1,0 +1,5 @@
+export HOME=/Users/mwhuss
+# export PATH=$(rbenv root)/shims:$PATH
+export PATH="/usr/local/opt/rbenv/shims:/usr/local/opt/rbenv/bin:/usr/local/bin:$PATH"
+export POW_WORKERS=3
+export POW_TIMEOUT=600

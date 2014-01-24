@@ -1,0 +1,18 @@
+# ~/.tmuxinator/treehouse.yml
+# you can make as many tabs as you wish...
+
+project_name: nezumi-push
+project_root: ~/Code/NezumiProj/nezumi-push
+pre: 
+tabs:
+  - editor:
+      layout: even-vertical
+      panes:
+        - #empty, will just run plain bash
+        - tconsole
+  - servers: 
+      layout: even-horizontal
+      panes:
+        - redis-server /usr/local/etc/redis.conf
+        - mongod run --config /usr/local/etc/mongod.conf
+  - logs: tail -f log/development.log

@@ -1,0 +1,15 @@
+# ~/.tmuxinator/treehouse.yml
+# you can make as many tabs as you wish...
+
+project_name: treehouse
+project_root: ~/Code/treehouse/teamtreehouse
+pre: mysql.server start
+tabs:
+  - editor:
+      layout: even-horizontal
+      panes:
+        - tconsole
+        - #empty, will just run plain bash
+  - logs: tail -f log/development.log
+  - console: bundle exec rails console
+  - challenges: cd ~/Code/treehouse/treehouse_code_challenges && DEBUG=1 ./worker

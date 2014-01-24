@@ -1,0 +1,67 @@
+export PATH=$PATH:$HOME/bin
+
+# ZSH
+source $HOME/.rake_completion.zsh
+
+
+alias migrate="rake db:migrate && db:test:prepare"
+alias remigrate="rake db:migrate && rake db:migrate:redo && rake db:schema:dump db:test:prepare"
+alias g="git"
+alias s="bundle exec rspec"
+alias gi="gem install"
+alias giv="gem install -v"
+alias gci="git pull --rebase && rake && git push"
+alias tlf="tail -f"
+alias b="bundle"
+alias ln='ln -v'
+alias mkdir='mkdir -p'
+alias ...='../..'
+
+alias -g G='| grep'
+alias -g M='| less'
+alias -g L='| wc -l'
+alias -g ONE="| awk '{ print \$1}'"
+alias -g bake='bundle exec rake'
+
+
+# Git
+alias gpo='git push origin'
+alias gd='git diff | mate'
+
+# Code
+alias qq='cd && \
+gem update && \
+brew update && \
+brew upgrade && \
+brew cleanup && \
+upgrade_oh_my_zsh'
+
+# Rails
+alias install_mysql_gem='env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config'
+alias rtest='ruby -Itest $1'
+alias cuc='be cucumber -rfeatures $1'
+alias ts-rebuild='rake RAILS_ENV=test ts:rebuild && rake ts:rebuild'
+alias ts-reindex='rake RAILS_ENV=test ts:index && rake ts:index'
+alias bm='bundle exec m'
+
+# Bundler
+# alias be='bundle exec $1'
+
+# RVM
+# alias gs='rvm info | grep gemset'
+
+# rbenv
+alias rr='rbenv rehash'
+
+# heroku
+alias h='heroku'
+
+# XCode
+
+alias xcignore='curl -o .gitignore https://raw.github.com/github/gitignore/master/Objective-C.gitignore'
+
+# ack
+alias ack='ack -i'
+
+# ZSH
+alias szsh='source ~/.zshrc'
