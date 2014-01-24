@@ -50,6 +50,8 @@ cdpath=($HOME/Code /Volumes $HOME)
 export PATH=/usr/local/bin:/Users/mwhuss/bin:$PATH
 export PATH="/Users/mwhuss/.apportable/SDK/bin:$PATH"
 
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 

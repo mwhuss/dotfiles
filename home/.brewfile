@@ -1,0 +1,32 @@
+update
+upgrade
+
+tap phinze/cask
+install brew-cask
+
+cask install alfred
+cask alfred link
+cask install dropbox
+cask install droplr
+cask install hipchat
+cask install macvim
+cask install mailplane
+cask install reveal
+
+install rbenv
+install ruby-build
+install rbenv-gem-rehash
+install openssl
+install reattach-to-user-namespace 
+install ssh-copy-id
+install tivodecode
+install tmux
+install nmap
+install redis
+install mysql
+install imagemagick
+install zsh-completions
+install heroku
+
+cleanup
+
