@@ -63,5 +63,8 @@ alias xcignore='curl -o .gitignore https://raw.github.com/github/gitignore/maste
 # ack
 alias ack='ack -i'
 
+# homebrew
+alias bb='brew bundle $HOME/.brewfile'
+
 # ZSH
 alias szsh='source ~/.zshrc'
