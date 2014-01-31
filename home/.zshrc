@@ -48,7 +48,6 @@ cdpath=($HOME/Code /Volumes $HOME)
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/Users/mwhuss/bin:$PATH
-export PATH="/Users/mwhuss/.apportable/SDK/bin:$PATH"
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 

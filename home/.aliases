@@ -36,6 +36,10 @@ brew upgrade && \
 brew cleanup && \
 upgrade_oh_my_zsh'
 
+
+# Ruby
+alias hs='homesick'
+
 # Rails
 alias install_mysql_gem='env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config'
 alias rtest='ruby -Itest $1'
@@ -55,7 +59,6 @@ alias rr='rbenv rehash'
 
 # heroku
 alias h='heroku'
-
 # XCode
 
 alias xcignore='curl -o .gitignore https://raw.github.com/github/gitignore/master/Objective-C.gitignore'
