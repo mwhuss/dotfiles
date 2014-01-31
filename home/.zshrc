@@ -39,7 +39,7 @@ unsetopt correct_all
 
 source $HOME/.aliases
 
-# export EDITOR='mate -w'
+export EDITOR='mvim -f'
 
 export GIT_MERGE_AUTOEDIT='no'
 
