@@ -8,13 +8,15 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 filetype plugin indent on     " required!
 set number
 set cc=81
 set encoding=utf-8
+set listchars=tab:>-,trail:~,extends:>
+set list
 
 " Theme
 Bundle 'flazz/vim-colorschemes'
