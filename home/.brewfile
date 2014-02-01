@@ -9,7 +9,6 @@ cask alfred link
 cask install dropbox
 cask install droplr
 cask install hipchat
-cask install macvim
 cask install mailplane
 cask install reveal
 cask install rdio
@@ -28,6 +27,9 @@ install mysql
 install imagemagick
 install zsh-completions
 install heroku
+install macvim --env-std --override-system-vim
+
+linkapps
 
 cleanup
 
