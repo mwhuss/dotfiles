@@ -39,7 +39,9 @@ unsetopt correct_all
 
 source $HOME/.aliases
 
-export EDITOR='mvim -f'
+export GIT_EDITOR='vim'
+export VISUAL='vim'
+export EDITOR='vim'
 
 export GIT_MERGE_AUTOEDIT='no'
 
