@@ -20,7 +20,7 @@ set list
 
 " Theme
 Bundle 'flazz/vim-colorschemes'
-colorscheme solarized 
+colorscheme solarized
 
 " Set leader
 let mapleader = ","
@@ -32,7 +32,7 @@ vnoremap ; :
 " We have to turn this stuff back on if we want all of our features.
 filetype plugin indent on " Filetype auto-detection
 syntax on " Syntax highlighting
- 
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -129,7 +129,6 @@ Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-bundle'
 Bundle 'b4winckler/vim-objc'
-
 
 
 " CocoaPods
