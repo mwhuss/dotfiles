@@ -62,6 +62,7 @@ Bundle 'scrooloose/nerdtree'
 " close vim if NERDTree is the last window left
 autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 map <C-n> :NERDTreeToggle<CR>
 map <Leader>n :NERDTreeToggle<CR>
 
