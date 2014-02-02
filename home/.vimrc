@@ -96,7 +96,7 @@ augroup KillFugitiveBuffers
   autocmd!
   autocmd BufReadPost fugitive://* set bufhidden=delete
 augroup end
-	
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Rails - plugin for making working with rails nicer
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -116,6 +116,20 @@ Bundle 'tpope/vim-surround'
 " surround inside
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Bundle 'briandoll/change-inside-surroundings.vim'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Makes trailing whitespace show in red
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'bronson/vim-trailing-whitespace'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Syntax highlighting
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-bundle'
+Bundle 'b4winckler/vim-objc'
+
 
 
 " CocoaPods
