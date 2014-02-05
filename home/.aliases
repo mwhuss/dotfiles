@@ -23,6 +23,7 @@ alias -g L='| wc -l'
 alias -g ONE="| awk '{ print \$1}'"
 alias -g bake='bundle exec rake'
 
+alias flush_cache='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
 
 # Git
 alias gpo='git push origin'

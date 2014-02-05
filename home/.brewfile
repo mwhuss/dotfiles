@@ -17,7 +17,7 @@ install rbenv
 install ruby-build
 install rbenv-gem-rehash
 install openssl
-install reattach-to-user-namespace 
+install reattach-to-user-namespace
 install ssh-copy-id
 install tivodecode
 install tmux
@@ -28,6 +28,7 @@ install imagemagick
 install zsh-completions
 install heroku
 install macvim --env-std --override-system-vim
+install wget
 
 linkapps
 
