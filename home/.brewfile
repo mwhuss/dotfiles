@@ -12,6 +12,8 @@ cask install hipchat
 cask install mailplane
 cask install reveal
 cask install rdio
+cask install licecap
+cask install postgres-app
 
 install rbenv
 install ruby-build

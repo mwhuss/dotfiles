@@ -27,7 +27,7 @@ alias flush_cache='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
 
 # Git
 alias gpo='git push origin'
-alias gd='git diff | mate'
+alias gd='git diff'
 
 # Code
 alias qq='cd && \
