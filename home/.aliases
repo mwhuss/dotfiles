@@ -43,6 +43,7 @@ alias hs='homesick'
 
 # Rails
 alias install_mysql_gem='env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config'
+alias install_pg_gem='gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config'
 alias rtest='ruby -Itest $1'
 alias cuc='be cucumber -rfeatures $1'
 alias ts-rebuild='rake RAILS_ENV=test ts:rebuild && rake ts:rebuild'
@@ -60,9 +61,10 @@ alias rr='rbenv rehash'
 
 # heroku
 alias h='heroku'
-# XCode
 
+# XCode
 alias xcignore='curl -o .gitignore https://raw.github.com/github/gitignore/master/Objective-C.gitignore'
+alias prov='open $HOME/Library/MobileDevice/Provisioning\ Profiles/'
 
 # ack
 alias ack='ack -i'

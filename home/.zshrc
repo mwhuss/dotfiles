@@ -30,7 +30,8 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler cap gem git heroku osx pod pow powder rails rake rbenv ruby ssh-agent terminitor textmate thor zsh-syntax-highlighting)
+plugins=(brew bundler gem git heroku history osx pod powder rails rake rbenv 
+ruby xcode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -46,7 +47,7 @@ export EDITOR='vim'
 export GIT_MERGE_AUTOEDIT='no'
 
 setopt auto_cd
-cdpath=($HOME/Code /Volumes $HOME)
+cdpath=($HOME/Code $HOME)
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/Users/mwhuss/bin:$PATH

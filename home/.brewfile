@@ -14,6 +14,7 @@ cask install reveal
 cask install rdio
 cask install licecap
 cask install postgres-app
+cask install fantastical
 
 install rbenv
 install ruby-build
@@ -26,11 +27,15 @@ install tmux
 install nmap
 install redis
 install mysql
-install imagemagick
 install zsh-completions
 install heroku
 install macvim --env-std --override-system-vim
 install wget
+
+install pkgconfig
+install imagemagick
+unlink imagemagick
+link imagemagick
 
 linkapps
 
