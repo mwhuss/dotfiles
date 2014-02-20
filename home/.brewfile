@@ -19,6 +19,7 @@ cask install fantastical
 install rbenv
 install ruby-build
 install rbenv-gem-rehash
+install rbenv-binstubs
 install openssl
 install reattach-to-user-namespace
 install ssh-copy-id
