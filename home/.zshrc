@@ -31,7 +31,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(brew bundler gem git heroku history osx pod powder rails rake rbenv 
-ruby xcode)
+ruby ssh-agent xcode)
 
 source $ZSH/oh-my-zsh.sh
 
