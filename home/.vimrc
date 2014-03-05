@@ -59,8 +59,8 @@ set noswapfile " They're just annoying. Who likes them?
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Bundle 'scrooloose/nerdtree'
 " close vim if NERDTree is the last window left
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+" autocmd VimEnter * NERDTree
+" autocmd VimEnter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 map <C-n> :NERDTreeToggle<CR>
 map <Leader>n :NERDTreeToggle<CR>
@@ -137,5 +137,4 @@ Bundle 'b4winckler/vim-objc'
 
 " CocoaPods
 au BufNewFile,BufRead Podfile,*.podspec      set filetype=ruby
-
 

@@ -16,6 +16,9 @@ cask install licecap
 cask install postgres-app
 cask install fantastical
 
+unlink tmux
+unlink imagemagick
+
 install rbenv
 install ruby-build
 install rbenv-gem-rehash
@@ -25,6 +28,7 @@ install reattach-to-user-namespace
 install ssh-copy-id
 install tivodecode
 install tmux
+link tmux
 install nmap
 install redis
 install mysql
@@ -35,7 +39,6 @@ install wget
 
 install pkgconfig
 install imagemagick
-unlink imagemagick
 link imagemagick
 
 linkapps
