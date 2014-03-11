@@ -36,6 +36,7 @@ install zsh-completions
 install heroku
 install macvim --env-std --override-system-vim
 install wget
+install chisel
 
 install pkgconfig
 install imagemagick
