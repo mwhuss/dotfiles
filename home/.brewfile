@@ -15,6 +15,7 @@ cask install rdio
 cask install licecap
 cask install postgres-app
 cask install fantastical
+cask cleanup
 
 unlink tmux
 unlink imagemagick
