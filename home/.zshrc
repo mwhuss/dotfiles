@@ -31,7 +31,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(brew bundler gem git heroku history osx pod powder rails rake rbenv 
-ruby ssh-agent xcode)
+ruby ssh-agent xcode zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -50,7 +50,7 @@ setopt auto_cd
 cdpath=($HOME/Code $HOME)
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/Users/mwhuss/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:/usr/local/bin:/Users/mwhuss/bin:$PATH
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 

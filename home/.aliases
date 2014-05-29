@@ -24,6 +24,7 @@ alias -g ONE="| awk '{ print \$1}'"
 alias -g bake='bundle exec rake'
 
 alias flush_cache='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+alias kill_vnc='killall NetAuthAgent'
 
 # Git
 alias gpo='git push origin'
@@ -74,3 +75,6 @@ alias bb='brew bundle $HOME/.brewfile'
 
 # ZSH
 alias szsh='source ~/.zshrc'
+
+# Cocoapods
+alias pi='pod install --no-repo-update'

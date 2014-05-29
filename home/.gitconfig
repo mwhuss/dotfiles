@@ -4,7 +4,7 @@
 [color]
   ui = auto
 [push]
-  default = simple
+	default = current
 [alias]
   who = shortlog -s -n --no-merges
   standup = shortlog --since=yesterday

@@ -7,7 +7,6 @@ install brew-cask
 cask install alfred
 cask alfred link
 cask install dropbox
-cask install droplr
 cask install hipchat
 cask install mailplane
 cask install reveal
@@ -15,11 +14,14 @@ cask install rdio
 cask install licecap
 cask install postgres-app
 cask install fantastical
+cask install xscope
+
 cask cleanup
 
 unlink tmux
 unlink imagemagick
 
+install git
 install rbenv
 install ruby-build
 install rbenv-gem-rehash
