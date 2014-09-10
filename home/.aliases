@@ -16,6 +16,7 @@ alias b="bundle"
 alias ln='ln -v'
 alias mkdir='mkdir -p'
 alias ...='../..'
+alias trust='xattr -d com.apple.quarantine $1'
 
 alias -g G='| grep'
 alias -g M='| less'

@@ -57,3 +57,5 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+source $HOME/bin/logo.sh
+
