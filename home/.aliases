@@ -67,6 +67,7 @@ alias h='heroku'
 # XCode
 alias xcignore='curl -o .gitignore https://raw.github.com/github/gitignore/master/Objective-C.gitignore'
 alias prov='open $HOME/Library/MobileDevice/Provisioning\ Profiles/'
+alias loc='find . "(" -name "*.m" -or -name "*.mm" -or -name "*.cpp" ")" -print0 | xargs -0 wc -l'
 
 # ack
 alias ack='ack -i'
